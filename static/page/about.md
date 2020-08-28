@@ -8,8 +8,4 @@ layout: nil
 
 ### 我整理的资料：
 
-1. [Laravel速查清单](static/vendor/laravel/doc.html)
-2. [ThinkPHP框架介绍PPT](static/vendor/deck.js/thinkphp.html)
-3. [正则表达式图示](static/vendor/regulex/index.html)
-4. [技能图谱](static/vendor/skill-map/index.html)
-5. [收集的吉他谱](static/vendor/guitar-chord)
+1. [收集的吉他谱](static/guitar-chord)
