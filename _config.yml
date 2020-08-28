@@ -1,4 +1,4 @@
-permalink: /post/:title.html
+permalink: /post/:year-:month-:day-:title.html
 paginate: 12
 paginate_path: "static/:num"
 highlighter: rouge
