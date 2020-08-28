@@ -1,0 +1,9 @@
+{
+	"shell_version": 25,
+	"shell_url": "",
+	"change_log": "1. 添加 TCP 参数支持",
+	"config_version": 6,
+	"config_change_log": "1.支持 snmp 和 pprof 参数;\n2.输出新版手机端参数",
+	"init_version": 3,
+	"init_change_log": "1.修复 CentOS 上找不到 Supervisor 执行文件的问题;\n2.由于 Supervisor 的版本不同, 执行文件的目录可能不一样, 如果你出现无法安装或启动失败的问题, 请及时联系我"
+}

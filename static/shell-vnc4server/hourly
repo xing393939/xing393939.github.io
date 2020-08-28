@@ -1,0 +1,31 @@
+#!/bin/bash
+exe="\-marionette"
+out_time=720
+for pid in `ps -ef | grep $exe | grep -v "grep" | awk '{print $2}'`
+do
+	user_hz=$(getconf CLK_TCK) #mostly it's 100 on x86/x86_64
+	jiffies=$(cat /proc/$pid/stat | cut -d" " -f22)
+	sys_uptime=$(cat /proc/uptime | cut -d" " -f1)
+	last_time=$(( ${sys_uptime%.*} - $jiffies/$user_hz ))
+	echo $last_time
+        if [ $last_time -gt $out_time ] ; then
+                pkill -f $exe
+                pkill -f /home/xingchen/geckodriver
+                su xingchen -c "DISPLAY=:7 /home/xingchen/geckodriver --port 4444 --host 0.0.0.0 > /dev/null 2>&1 &"
+        fi
+done
+
+exe="firefox"
+out_time=3600
+for pid in `ps -ef | grep $exe | grep -v "grep" | awk '{print $2}'`
+do
+        user_hz=$(getconf CLK_TCK) #mostly it's 100 on x86/x86_64
+        jiffies=$(cat /proc/$pid/stat | cut -d" " -f22)
+        sys_uptime=$(cat /proc/uptime | cut -d" " -f1)
+        last_time=$(( ${sys_uptime%.*} - $jiffies/$user_hz ))
+        echo $last_time
+        if [ $last_time -gt $out_time ] ; then
+                kill -9 $pid
+        fi
+done
+
