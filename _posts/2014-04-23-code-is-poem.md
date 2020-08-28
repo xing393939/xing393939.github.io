@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 《代码如诗》
-category: life
+category: think
 ---
 
 不论是一个清新的早晨  

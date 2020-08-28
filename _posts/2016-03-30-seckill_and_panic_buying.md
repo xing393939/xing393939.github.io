@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 电商秒杀与抢购场景
-category: tech
+category: think
 ---
 
 ### 参考资料

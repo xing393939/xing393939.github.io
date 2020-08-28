@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 面试小结
-category: life
+category: think
 ---
 
 ### 换工作的原因

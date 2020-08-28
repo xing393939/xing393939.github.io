@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 参加 2016 武汉开发者峰会后的学习总结
-category: tech
+category: think
 ---
 
 ### 絮叨一下

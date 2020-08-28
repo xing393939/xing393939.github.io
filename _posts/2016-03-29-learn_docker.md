@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Docker 入门学习
-category: tech
+category: think
 ---
 
 ### 参考资料

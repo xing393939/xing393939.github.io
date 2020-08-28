@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 分布式方案：取模和一致性 Hash
-category: tech
+category: think
 ---
 
 ### 参考文章
