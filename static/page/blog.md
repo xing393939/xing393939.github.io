@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: nil
 ---
 
 1. 开发者#写作者#译者,<http://lachaise.xyz/>，[手帐以及 productivity](http://lachaise.xyz/post/210)

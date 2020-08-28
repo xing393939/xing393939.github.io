@@ -1,6 +1,5 @@
 ---
-layout: resume
-title: 我的简历
+layout: nil
 ---
 
 # 我的简历

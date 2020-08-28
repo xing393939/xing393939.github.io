@@ -1,6 +1,5 @@
 ---
-layout: resume
-title: 面试
+layout: nil
 ---
 
 ## 学习计划
