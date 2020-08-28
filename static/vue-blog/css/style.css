@@ -458,21 +458,6 @@ span.balloon {
 	text-shadow:0 1px 0 #000000;
 }
 
-#subnav {
-	border-top: 1px solid #ccc;
-	border-bottom: 1px solid #ccc;
-	height: 46px;
-	overflow: hidden;
-}
-
-#subnav a {
-	display: block;
-	float: left;
-	line-height: 46px;
-	font-weight: normal;
-	padding: 0 20px;
-}
-
 #content.index {
 	overflow:hidden;
 }
@@ -551,10 +536,7 @@ div#disqus_thread li ul li {
 	margin-top: -20px;
 }
 
-
-
 /* for the highlight syntax ╮(╯▽╰)╭ */
-
 .cnt pre,
 .cnt .highlight {
   background: #272822;
