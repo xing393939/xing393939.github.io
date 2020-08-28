@@ -19,7 +19,7 @@
             <router-view></router-view>
         </div>
         <div id="footer">
-            <p style="color:#ccc;font-size:12px;text-align: center">make the world a little better and easier</p>
+            <p style="color:#ccc;font-size:12px;text-align:center;">make the world a little better and easier</p>
             <p style="clear:both"></p>
         </div>
     </div>

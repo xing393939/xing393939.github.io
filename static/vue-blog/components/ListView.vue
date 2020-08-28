@@ -35,8 +35,8 @@
         methods: {
             fetchData: function () {
                 const page = +this.$route.params.page
-
-                this.$axios.get('/static/' + page + '/')
+                
+                this.$axios.get('/static/' + (page > 1 ? page + '/' : ''))
                     .then((response) => {
                         this.items = response.data
                         this.page = page
