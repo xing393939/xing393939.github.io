@@ -1,0 +1,15 @@
+---
+layout: nil
+---
+
+[
+{% for post in paginator.posts %}
+{
+  "title":"{{ post.title }}",
+  "id":"{{ post.id }}",
+  "category":"{{ post.category }}",
+  "date":"{{ post.date | date:"%Y-%m-%d" }}"
+}
+{% if forloop.last == false %},{% endif %}
+{% endfor %}
+]
