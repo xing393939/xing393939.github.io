@@ -4,7 +4,7 @@
             <ul class="posts">
                 <li v-for="(item, k) in items" :key="k">
                     <p class="date" cate="item.category">{{item.date}}</p>
-                    <router-link :to="'/' + item.id">{{item.title}}</router-link>
+                    <router-link :to="item.id">{{item.title}}</router-link>
                 </li>
             </ul>
         </div>
