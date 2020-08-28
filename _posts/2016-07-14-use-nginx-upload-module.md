@@ -1,7 +1,7 @@
 ---
 layout: post
 title: js 结合 nginx_upload_module 实现大文件分段上传
-category: tech
+category: think
 ---
 
 

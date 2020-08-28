@@ -21,7 +21,7 @@
         methods: {
             fetchData() {
                 this.item = '<p>loading...</p>';
-                this.$axios.get('/static/page/' + this.$route.params.slug + '.html')
+                this.$axios.get(this.$router.currentRoute.path + '.html')
                     .then((response) => {
                         this.item = response.data;
                     })

@@ -3,8 +3,8 @@
         <div id="main">
             <ul class="posts">
                 <li v-for="(item, k) in items" :key="k">
-                    <p class="date" cate="tech">{{item.date}}</p>
-                    <router-link :to="'/list/' + page + item.id">{{item.title}}</router-link>
+                    <p class="date" cate="item.category">{{item.date}}</p>
+                    <router-link :to="'/' + item.id">{{item.title}}</router-link>
                 </li>
             </ul>
         </div>
@@ -44,11 +44,6 @@
                     .catch(function (response) {
                         console.log(response)
                     })
-            }
-        },
-        filters: {
-            formatItemIndex(index) {
-                return (this.page - 1) * 30 + index + 1
             }
         }
     }

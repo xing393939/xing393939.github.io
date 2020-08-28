@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 学习 Laravel 的 artisan 工具命令
-category: php
+category: think
 ---
 
 <pre>
