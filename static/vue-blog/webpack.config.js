@@ -22,7 +22,18 @@ module.exports = {
   },
   module: {
     rules: [
-      {test: /\.css$/, use: 'css-loader' }, 
+      {test: /\.css$/, use: [
+        {
+          loader: 'vue-style-loader'
+        },
+        {
+          loader: 'css-loader',
+          options: {
+            modules: true,
+            localIdentName: '[local]_[hash:base64:8]'
+          }
+        }
+      ]}, 
       {test: /\.vue$/, use: 'vue-loader' }, 
       {test: /\.js$/, use: 'babel-loader', exclude: /node_modules/ }
     ]
