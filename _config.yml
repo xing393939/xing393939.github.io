@@ -1,6 +1,6 @@
 permalink: /post/:year/:month/:day/:title.html
 paginate: 12
-paginate_path: "static/:num"
+paginate_path: "static/:num.html"
 highlighter: rouge
 
 kramdown:
