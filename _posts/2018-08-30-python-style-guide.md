@@ -17,6 +17,8 @@ category: tech
 - Google 开源的 Python 文件格式化工具：[github.com/google/yapf](https://github.com/google/yapf)
 - pyflakes, pylint 等工具及各种编辑器的插件
 
+### PEP8 规范
+
 #### 缩进
 
 - 不要使用 tab 缩进
