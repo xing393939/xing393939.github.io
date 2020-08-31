@@ -30,6 +30,10 @@ abbr,acronym { border:0;
 }
 
 @media (max-width: 900px) {
+	#content .toc-container {
+		display: none;
+	}
+
 	#content .posts li span.category {
 		display: none;
 	}
@@ -169,8 +173,6 @@ div#content img, div#content object {
 	-moz-box-shadow:0 1px 0 #FFFFFF;
 	width: 100%;
 	height: 100%;
-	/*border:5px solid #222222;*/
-	/*width:680px;*/
 }
 div#content li {
 	list-style:disc;
@@ -801,4 +803,19 @@ pre a:only-of-type::before {
 	padding-left: 4px;
 	list-style: circle;
 	padding: 0;
+}
+/*toc*/
+div#content .toc-container {
+	position: fixed;
+	top: 80px;
+	margin-left: -250px;
+	width: 240px;
+}
+div#content .toc-container ul {
+	list-style: none;
+}
+div#content .toc-container li {
+	list-style: none;
+	height: 30px;
+	overflow: hidden;
 }
