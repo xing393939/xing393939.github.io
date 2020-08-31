@@ -1,7 +1,7 @@
 ---
 layout: post
 title: TVB《天地豪情》观后感
-category: life
+category: 电视剧
 ---
 
 今年看了很多 TVB 的老剧，比较钟情 TVB 90年代的剧。最近正在看《天地豪情》，还有十来集没有看完，记录一点感想。

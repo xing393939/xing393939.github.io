@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 心智成熟的旅程
-category: life
+category: 随笔
 ---
 
 

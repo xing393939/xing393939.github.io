@@ -1,7 +1,7 @@
 ---
 layout: post
 title: WebRTC 入门学习
-category: js
+category: 技术
 ---
 
 ### 参考资料

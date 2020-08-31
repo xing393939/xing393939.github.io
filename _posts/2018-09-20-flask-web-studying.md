@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Flask Web 开发相关知识点
-category: tech
+category: 技术
 ---
 
 ### 参考资料

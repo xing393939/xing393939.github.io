@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 用 APICloud 开发 app 并提交到苹果商店
-category: book
+category: 技术
 ---
 
 ### 参考资料

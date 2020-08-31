@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Ubuntu 下设置 vnc 远程桌面和 python 远程 selenium 调用
-category: tech
+category: 技术
 ---
 
 #### 参考资料

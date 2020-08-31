@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Python 编码规范
-category: tech
+category: 技术
 ---
 
 ### 参考资料

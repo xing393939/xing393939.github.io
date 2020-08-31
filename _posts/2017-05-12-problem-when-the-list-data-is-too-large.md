@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Vue 项目上拉加载更多时 list 数据过大导致页面卡顿的问题
-category: js
+category: 技术
 ---
 
 ### 参考资料

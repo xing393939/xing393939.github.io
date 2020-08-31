@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 认识 Https
-category: js
+category: 技术
 ---
 
 ### 参考资料

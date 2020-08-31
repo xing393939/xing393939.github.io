@@ -1,7 +1,7 @@
 ---
 layout: post
-title: 纪录片《公共场所》观后感
-category: life
+title: 《公共场所》观后感
+category: 纪录片
 ---
 
 <blockquote>

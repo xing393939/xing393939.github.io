@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Linux 常用命令
-category: tech
+category: 技术
 ---
 
 #### 基础常用
