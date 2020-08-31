@@ -1,7 +1,7 @@
 ---
 layout: post
 title: PHP 缓存器 Opcache 的使用
-category: think
+category: 技术
 ---
 
 

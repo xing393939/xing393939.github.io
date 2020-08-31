@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Win64 系统下给 PHP 5.5 装 imagick 扩展
-category: think
+category: 技术
 ---
 
 <pre>

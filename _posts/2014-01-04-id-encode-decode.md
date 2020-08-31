@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 整型 id 加密成定长字母数字组合的字符串
-category: think
+category: 技术
 ---
 
 ### 适用场景

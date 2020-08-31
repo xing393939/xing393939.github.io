@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 子网掩码和默认网关
-category: tech
+category: 技术
 ---
 
 ### 参考资料

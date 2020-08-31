@@ -1,7 +1,7 @@
 ---
 layout: post
 title: linux 下使用 iptables 端口映射或者绑定网卡的方式绑定 ip 
-category: think
+category: 技术
 ---
 
 ### 适用场景

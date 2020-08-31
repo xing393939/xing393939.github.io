@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Ajax 跨域时的 OPTIONS 请求
-category: think
+category: 技术
 ---
 
 ### 参考资料

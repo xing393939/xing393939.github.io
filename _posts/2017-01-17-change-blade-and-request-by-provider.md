@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Laravel 框架如何获取 ip 和修改模板标签定界符
-category: tech
+category: 技术
 ---
 
 ### 参考资料

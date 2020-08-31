@@ -1,7 +1,7 @@
 ---
 layout: post
 title: PHP 与 Lua 对应的一个简单加解密算法
-category: tech
+category: 技术
 ---
 
 ### 参考资料

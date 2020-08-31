@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Nginx 与 Lua 的配合使用
-category: tech
+category: 技术
 ---
 
 ### 参考资料

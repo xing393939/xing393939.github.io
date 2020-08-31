@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 解决 ios7+ 的 app 界面和状态栏重叠的问题（基于 APICloud 和 ionic ）
-category: think
+category: 技术
 ---
 
 ### 环境

@@ -1,7 +1,7 @@
 ---
 layout: post
-title: 读书笔记《闲话闲说》
-category: book
+title: 《闲话闲说》
+category: 读书
 ---
 
 昨天看完了《闲话闲说》，记录一下自己的一点感想。

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 亿级 Web 系统的容错性建设
-category: think
+category: 技术
 ---
 
 ### 参考资料

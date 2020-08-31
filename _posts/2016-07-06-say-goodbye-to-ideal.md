@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 《再见理想》
-category: think
+category: 技术
 ---
 
 怀旧是一种疗伤<br/>也是一种软弱<br/>

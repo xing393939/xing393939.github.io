@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Mysql 异步查询的实现
-category: php
+category: 技术
 ---
 
 ### 参考资料

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: React 入门学习
-category: think
+category: 技术
 ---
 
 ### 简介

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 使用 ghost.py 和 scrapy.py 做采集的尝试
-category: think
+category: 技术
 ---
 
 ### 学习背景

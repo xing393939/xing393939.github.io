@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 查看 MySQL 是否支持 InnoDB 引擎以及不支持的解决办法
-category: think
+category: 技术
 ---
 
 转自(http://blog.is36.com/install_mysql_innodb/)

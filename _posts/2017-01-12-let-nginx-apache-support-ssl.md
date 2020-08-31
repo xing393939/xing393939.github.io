@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Nginx 或者 Apache 配置 HTTPS 服务器
-category: tech
+category: 技术
 ---
 
 ### 参考资料
