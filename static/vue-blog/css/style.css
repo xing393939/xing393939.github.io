@@ -808,14 +808,16 @@ pre a:only-of-type::before {
 div#content .toc-container {
 	position: fixed;
 	top: 80px;
-	margin-left: -250px;
-	width: 240px;
+	margin-left: -230px;
+	width: 220px;
 }
 div#content .toc-container ul {
-	list-style: none;
+	margin-left: 0;
 }
-div#content .toc-container li {
-	list-style: none;
+div#content .toc-container li a {
 	height: 30px;
 	overflow: hidden;
+	display: block;
+	white-space: nowrap;
+    text-overflow: ellipsis;
 }
