@@ -6,6 +6,13 @@ layout: nil
 
 写博客是为了让自己去思考和表达真实的自我，希望博客能留住一些“自己”，写的文章是值得自己此后回顾的。
 
-### 我整理的资料：
-
-1. [收集的吉他谱](static/guitar-chord)
+#### 整理的资料
+1. [收集的吉他谱](https://xing393939.github.io/static/guitar-chord)
+1. [PHP 面试知识点](https://xing393939.github.io/php-study/)
+1. [学习 Laravel](https://xing393939.github.io/laravel-study/)
+1. [学习 C 语言](https://xing393939.github.io/c-study/)
+1. [学习 CSAPP](https://xing393939.github.io/csapp-study/)
+1. [学习容器技术](https://xing393939.github.io/docker-study/)
+1. [学习理财](https://xing393939.github.io/finance-study/)
+1. [中国文学](https://xing393939.github.io/chinese-literature/)
+1. [中国历史](https://xing393939.github.io/chinese-history/)
