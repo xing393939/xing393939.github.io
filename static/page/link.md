@@ -86,4 +86,4 @@ layout: nil
 1. [梦想成真](https://www.jianshu.com/u/b230cceb9ab1)，前端
 1. [RincLiu](https://rinc.xyz/)，安卓大牛，目前在腾讯
 1. [如何写成无法维护的项目](http://coolshell.cn/articles/4758.html)，颇具喜感的经验分享
-1. [Digg 是如何被一句 Python 函数可变默参 毁掉的](https://www.v2ex.com/t/467817)
+1. [Digg 是如何被一句 Python 函数可变默参毁掉的](https://www.v2ex.com/t/467817)
