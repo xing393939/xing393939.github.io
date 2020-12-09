@@ -21,6 +21,7 @@ div#content .cnt li {
 - [不可理论](http://lachaise.xyz/post/210 "带你用理论理解生活。主播是台湾大学读文学系的美女")
 - [迟早更新](https://blog.ryouissei.com/post/fb0ab8d3.html "探讨商业、生活，https://liqixpodcast.typlog.io/li-qi-xbo-ke-fang-tan-004-podcasting-shi-yi-bin-d220d4ee")
 - [得意忘形](https://medium.com/@iwannasay/b1bd7174fe12 "关注探寻个人内心，第0期可以听听")
+- [名著面面观](https://www.ximalaya.com/renwen/6292039/ "中国传媒大学的老师，有文学品味，条理清晰，说话也有趣")
 
 #### 博客
 - [卢昌海个人主页](https://www.changhai.org/ "物理学博士，网站记录了他从童年开始的人生经历")
@@ -55,6 +56,7 @@ div#content .cnt li {
 - [褪墨](https://www.mifengtd.cn/about/ "关注的主题：时间管理、个人提升、生活健康")
 - [不许联想](https://www.wangxiaofeng.me/faq "自己做T恤卖，前《三联生活周刊》记者")
 - [扫地老僧的Blog](https://doyj.com/ "Python老兵，考虑家庭健康因素定居珠海")
+- [小士刀](https://wdxtub.com/life/ "90后开发，读书很多，可以多看看他的读书笔记")
 
 #### 吉他之路
 - [童年](# "童年")
@@ -142,8 +144,9 @@ div#content .cnt li {
 - [穷查理宝典](# "作为一名巴菲特级别的商人，提出的处世的智慧，需要慢慢消化")
 - [少有人走的路Ⅲ](# "任何情绪、情感都有它的意义，要正确面对")
 - [菜根谭](# "比较多的心学思想")
-- [文学大纲](# "正在看")
-
+- [文学大纲](# "介绍了欧洲、日本、中国的历史文学，止于19世纪")
+- [中国小说史略](# "介绍了古代不受重视的小说发展，全书略偏文言文，不是很好阅读")
+- [中国史纲要](# "翦伯赞著，正在看")
 
 
 
