@@ -41,7 +41,6 @@ div#content .cnt li {
 - [四火的唠叨](https://www.raychase.net/3196 "美国工作，有一些工作上的思考")
 - [觉论](https://blog.ryouissei.com/post/fb0ab8d3.html "在日本做设计，他对政府舆论趋向娱乐化的思考说的很好")
 - [DHTalk Blog](https://zhangdinghao.cn/2019/12/30/2019-readbooks/ "93年，在上海做开发，关注阅读和理财")
-- [Elizen Blog](https://blog.elizen.me/2020/04/write-write/ "90年，头条文章作者") 
 - [Linghao](https://linghao.io/posts/five-year-learning-2013-2018 "Google工程师，文章较少，这篇可以")
 - [冷眼向洋](https://lengyanxiangyang.wordpress.com/2020/04/01/a-great-power-enclosed/ "留学生，学政治学，关于中国是封闭的强权国家讲的有道理")
 - [THE QLOG](https://blog.quyi.de/2016/liqi/ "经济学博士生，讲武汉公交司机文笔很幽默")
