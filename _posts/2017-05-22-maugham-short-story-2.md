@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 读书《毛姆短篇小说精选集》之二
+title: 《毛姆短篇小说精选集》之二
 category: 读书
 ---
 
