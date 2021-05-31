@@ -33,29 +33,20 @@ layout: nil
 1. [风雪之隅](http://www.laruence.com/)， 链家网架构师 惠新宸(鸟哥)
 1. [博学无忧](http://www.bo56.com/)，一淘搜索，偏php
 1. [PHP设计模式-胖胖的空间](http://www.phppan.com)，曾负责手Q日10亿PV运营系统，现在在即构科技
-1. [链家网吕毅](http://pangee.cn/video-tutorial)，在链家网负责平台化服务建设
 1. [廖雪峰的官方网站](http://www.liaoxuefeng.com/)，技术作家，著有《Spring 2.0核心技术与最佳实践》
 1. [张鑫旭-鑫空间-鑫生活](http://www.zhangxinxu.com)，就职阅文集团，web前端
 1. [哈巴狗](http://www.habadog.com/)，58架构师 沈剑
-1. [猫头鹰技术博客](http://mtydev.net/)，武汉技术团队
 1. [火丁笔记](http://huoding.com)，王博（老王）
 1. [雨夜带刀](https://blog.yiguochen.com)，美团 前端
 1. [五四陈科学院](http://www.54chen.com/)，小米 后端
-1. [扶凯](http://www.php-oa.com/)，音悦台 视频编解码
-1. [小虾虎鱼](http://www.xiaoboy.com/)，偏js，node
-1. [点灯坊](http://oomusou.io/)，laravel
-1. [技术行者](http://hansionxu.blog.163.com/)，徐汉彬 负责QQ会员AMS（PHP亿级项目）
+1. [前端禾惠](http://www.xiaoboy.com/)，偏js，node
 1. [运维笔记](https://blog.linuxeye.com/)，阿里云服务商 上海微柳网络科技
 1. [路人甲](http://passer-by.com/)，一只程序猿的禅意生活(web前端)
-1. [尘缘的博客](http://www.4wei.cn/)，LNMMP+PHP+ELK，V2的id是vus520
 1. [美团点评技术团队](http://tech.meituan.com/)，vue、安卓、ios
-1. [做与不做](https://www.saowen.com/source/site/ghost_icosplay_cc)，linux、PHP
 1. [小胡子哥](http://www.barretlee.com/)，就职淘宝FED(前端团队)
 1. [晚晴幽草轩](http://jeffjade.com/)，前端，就职大疆创新
 1. [Jerry Qu](https://imququ.com/)，奇虎360前端，坚持写高质量博客，博客日pv 3k+
 1. [iMySQL - 老叶茶馆](http://imysql.com/)，专注MySQL技术，最靠谱的MySQL培训知数堂联合创始人
-1. [为自由而工作 - 严俊羿](http://yanjunyi.com/works/)，自由职业者，作品有“找青旅”和“CMS系统”
-1. [YouMeek](http://www.youmeek.com/)，Javaer，可以付费请教java问题
 1. [吴水永](https://www.zhihu.com/people/wu-shui-yong)，瓦力的作者，博文有思想
 1. [静觅 崔庆才的个人博客](http://cuiqingcai.com)，关注爬虫、python
 1. [江伟的笔记](http://www.jwsblog.com/)，ELK、PHP
@@ -73,17 +64,13 @@ layout: nil
 1. [四火的唠叨](https://www.raychase.net/4822)，先后就职于华为、Amazon、Oracle，从事云服务的分布式工作流引擎的开发
 1. [黄健宏](https://blog.huangz.me/)，熟悉redis和go，出了好几本redis的书
 1. [李乾坤的博客](https://qiankunli.github.io/2018/03/31/2018_review.html)，就职喜马拉雅，关注后端、带团队、自身成长，读技术书较多
-1. [小谈博客](https://tanteng.me/)，PHP、Laravel
 1. [Overtrue](https://overtrue.me)，PHP、Laravel
 
 ### 友情链接
 
-1. [忘情号](http://www.te58.com/)，我怀疑，我们人生里面，唯一可以相遇的机会，已经错过了
-1. [一个不错的男人](http://wxstorm.me/)，看到的最文艺的码农
-1. [独唱团](https://www.dutype.com/)，写作社区
 1. [微风实验室](https://tea.codes/)，PHPer，网友，技术创业中
 1. [张宴的博客](http://blog.s135.com/)，Web架构师
 1. [梦想成真](https://www.jianshu.com/u/b230cceb9ab1)，前端
 1. [RincLiu](https://rinc.xyz/)，安卓大牛，目前在腾讯
-1. [如何写成无法维护的项目](http://coolshell.cn/articles/4758.html)，颇具喜感的经验分享
+1. [如何写成无法维护的项目](http://coolshell.cn/articles/4758.html)
 1. [Digg 是如何被一句 Python 函数可变默参毁掉的](https://www.v2ex.com/t/467817)
