@@ -30,7 +30,7 @@ export default {
             document.getElementById("toc-container").innerHTML = "";
             document
               .getElementById("toc-container")
-              .append(self.$refs["toc-container"]);
+              .append(document.getElementById("toc-content"));
           });
         })
         .catch(function (response) {
