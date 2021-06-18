@@ -30,7 +30,7 @@ abbr,acronym { border:0;
 }
 
 @media (max-width: 900px) {
-	#toc-container {
+	.toc-container {
 		display: none;
 	}
 
@@ -804,16 +804,16 @@ pre a:only-of-type::before {
 	padding: 0;
 }
 /*toc*/
-#toc-container {
+.toc-container {
 	position: fixed;
 	top: 80px;
 	margin-left: -235px;
 	width: 220px;
 }
-#toc-container ul {
+.toc-container ul {
 	margin-left: 0;
 }
-#toc-container li a {
+.toc-container li a {
 	height: 30px;
 	overflow: hidden;
 	display: block;

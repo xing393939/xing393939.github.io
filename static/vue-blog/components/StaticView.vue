@@ -26,12 +26,6 @@ export default {
         .get(self.$router.currentRoute.value.fullPath + ".html")
         .then((response) => {
           self.item = response.data;
-          self.$nextTick(() => {
-            document.getElementById("toc-container").innerHTML = "";
-            document
-              .getElementById("toc-container")
-              .append(document.getElementById("toc-content"));
-          });
         })
         .catch(function (response) {
           console.log(response);
