@@ -20,13 +20,18 @@ export default {
   },
   methods: {
     fetchData() {
-      console.log(this.$router)
-      this.item = "<p>loading...</p>";
+      let self = this;
+      self.item = "<p>loading...</p>";
       axios
-        .get(this.$router.currentRoute.value.fullPath + ".html")
+        .get(self.$router.currentRoute.value.fullPath + ".html")
         .then((response) => {
-          this.item = response.data;
-          document.getElementById('toc-container').append(this.$refs['toc-container'])
+          self.item = response.data;
+          self.$nextTick(() => {
+            document
+              .getElementById("toc-container")
+              .html("")
+              .append(self.$refs["toc-container"]);
+          });
         })
         .catch(function (response) {
           console.log(response);
