@@ -27,9 +27,9 @@ export default {
         .then((response) => {
           self.item = response.data;
           self.$nextTick(() => {
+            document.getElementById("toc-container").innerHTML = "";
             document
               .getElementById("toc-container")
-              .html("")
               .append(self.$refs["toc-container"]);
           });
         })
