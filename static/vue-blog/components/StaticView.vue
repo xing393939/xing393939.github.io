@@ -21,6 +21,9 @@ export default {
   methods: {
     fetchData() {
       let self = this;
+      if (self.$route.params.page) {
+        return;
+      }
       self.item = "<p>loading...</p>";
       axios
         .get(self.$router.currentRoute.value.fullPath + ".html")

@@ -39,7 +39,6 @@ export default {
   },
   methods: {
     fetchData: function () {
-      console.log(this.$route.params)
       const page = +this.$route.params.page;
       axios
         .get("/static/" + (page > 1 ? page + "/" : ""))
