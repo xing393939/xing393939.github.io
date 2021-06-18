@@ -30,7 +30,7 @@ abbr,acronym { border:0;
 }
 
 @media (max-width: 900px) {
-	#content .toc-container {
+	#toc-container {
 		display: none;
 	}
 
@@ -286,7 +286,6 @@ td,th {
 .wrapper table tr:nth-child(2n) {
     background-color: #f8f8f8
 }
-
 /* table end*/
 
 h2, h3, h4, h5, h6 {
@@ -805,16 +804,16 @@ pre a:only-of-type::before {
 	padding: 0;
 }
 /*toc*/
-div#content .toc-container {
+#toc-container {
 	position: fixed;
 	top: 80px;
 	margin-left: -235px;
 	width: 220px;
 }
-div#content .toc-container ul {
+#toc-container ul {
 	margin-left: 0;
 }
-div#content .toc-container li a {
+#toc-container li a {
 	height: 30px;
 	overflow: hidden;
 	display: block;

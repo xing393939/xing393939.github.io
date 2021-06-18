@@ -1,43 +1,49 @@
-const path = require('path');
-const webpack = require('webpack');
-const VueLoaderPlugin = require('vue-loader/lib/plugin');
-
-function resolve(dir) {
-  return path.join(__dirname, dir)
-}
+const path = require('path')
+const HtmlWebpackPlugin = require('html-webpack-plugin')
+const { VueLoaderPlugin } = require('vue-loader/dist/index')
+const webpack = require('webpack')
+const { CleanWebpackPlugin } = require('clean-webpack-plugin')
 
 module.exports = {
-  entry: {
-    index: path.resolve(__dirname, 'main.js'),
-  },
-  plugins: [
-    new VueLoaderPlugin(),
-    new webpack.optimize.LimitChunkCountPlugin({
-      maxChunks: 1,
-    }),
-  ],
+  mode: "production",
+  entry: path.resolve(__dirname, 'main.js'),
   output: {
     path: path.resolve(__dirname, '../js'),
     filename: 'build.js'
   },
   module: {
     rules: [
-      {test: /\.css$/, use: [
-        {
-          loader: 'vue-style-loader'
-        },
-        {
-          loader: 'css-loader'
-        }
-      ]}, 
-      {test: /\.vue$/, use: 'vue-loader' }, 
-      {test: /\.js$/, use: 'babel-loader', exclude: /node_modules/ }
+      {
+        test: /\.js$/,
+        exclude: /node_modules/,
+        loader: 'babel-loader'
+      },
+      {
+        test: /\.vue$/,
+        use: [
+          'vue-loader'
+        ]
+      },
+      {
+        test: /\.css$/,
+        use: [
+          'style-loader',
+          'css-loader'
+        ]
+      }
     ]
   },
-  resolve:{
-    alias:{
-      'vue$': 'vue/dist/vue.esm.js',
-      '@': resolve('')
-    }
+  plugins: [
+    new webpack.optimize.LimitChunkCountPlugin({
+      maxChunks: 1,
+    }),
+    new VueLoaderPlugin(),
+    new webpack.HotModuleReplacementPlugin(),
+    new CleanWebpackPlugin()
+  ],
+  devServer: {
+    publicPath: '/static/',
+    compress: true,
+    port: 8080
   }
-};
+}

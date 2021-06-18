@@ -1,5 +1,5 @@
 <h2>{{ page.title }}</h2>
 {{ content }}
-<div class='toc-container'>
+<div ref='toc-container' style="display: none;">
     {% include toc.html html=content %}
 </div>

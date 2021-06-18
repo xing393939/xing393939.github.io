@@ -1,34 +1,37 @@
 <template>
-    <div class="cnt" v-html="item">
-    </div>
+  <div class="cnt" v-html="item"></div>
 </template>
 
 <script>
-    export default {
-        name: 'StaticView',
-        data() {
-            return {
-                item: "",
-                pollOptions: null
-            }
-        },
-        created() {
-            this.fetchData()
-        },
-        watch: {
-            '$route': 'fetchData'
-        },
-        methods: {
-            fetchData() {
-                this.item = '<p>loading...</p>';
-                this.$axios.get(this.$router.currentRoute.path + '.html')
-                    .then((response) => {
-                        this.item = response.data;
-                    })
-                    .catch(function (response) {
-                        console.log(response)
-                    })
-            },
-        }
-    }
+import axios from "axios";
+export default {
+  name: "StaticView",
+  data() {
+    return {
+      item: "",
+      pollOptions: null,
+    };
+  },
+  created() {
+    this.fetchData();
+  },
+  watch: {
+    $route: "fetchData",
+  },
+  methods: {
+    fetchData() {
+      console.log(this.$router)
+      this.item = "<p>loading...</p>";
+      axios
+        .get(this.$router.currentRoute.value.fullPath + ".html")
+        .then((response) => {
+          this.item = response.data;
+          document.getElementById('toc-container').append(this.$refs['toc-container'])
+        })
+        .catch(function (response) {
+          console.log(response);
+        });
+    },
+  },
+};
 </script>
