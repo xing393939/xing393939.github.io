@@ -18,7 +18,6 @@ div#content .cnt li {
 - [teahour.fm](# "IT行业人士的电台，最近几年更新很少了")
 - [狗熊有话说](# "前面100期的狗熊月读不错，后面内容变了")
 - [Steve说](# "心理咨询师做的博客，讲了很多心理学的东西，对我很有启发")
-- [不可理论](http://lachaise.xyz/post/210 "带你用理论理解生活。主播是台湾大学读文学系的美女")
 - [迟早更新](https://blog.ryouissei.com/post/fb0ab8d3.html "探讨商业、生活，https://liqixpodcast.typlog.io/li-qi-xbo-ke-fang-tan-004-podcasting-shi-yi-bin-d220d4ee")
 - [得意忘形](https://medium.com/@iwannasay/b1bd7174fe12 "关注探寻个人内心，第0期可以听听")
 - [名著面面观](https://www.ximalaya.com/renwen/6292039/ "中国传媒大学的老师，有文学品味，条理清晰，说话也有趣")
@@ -112,6 +111,7 @@ div#content .cnt li {
 - [生命火花](# "因果宿命，郑凤娇从一个无知无畏的少女，经受冤狱、养父的威胁，本来很可能走上歧途，马嘉嘉解救了她，而郑最终也成长了")
 - [再见亦是老婆](# "休闲剧。过于约束自己的欲望，可能有一天就会喷薄而出")
 - [马场大亨](# "进行中")
+- [新同居关系](# "进行中")
 
 #### 文学 - 作家
 - [阿城](#)
