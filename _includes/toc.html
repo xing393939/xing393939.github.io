@@ -84,7 +84,7 @@
         {% endcapture %}
         {% capture my_toc %}
             {{ my_toc }}
-{{ space }}{{ listModifier }} {{ listItemClass }} [{{ heading_body | replace: "|", "\|" }}](javascript:;)
+{{ space }}{{ listModifier }} {{ listItemClass }} [{{ heading_body | replace: "|", "\|" }}](javascript:document.getElementById('{{ html_id }}').scrollIntoView(true);)
             {% if include.anchor_class %}{:.{{ include.anchor_class }}}{% endif %}
         {% endcapture %}
     {% endfor %}
