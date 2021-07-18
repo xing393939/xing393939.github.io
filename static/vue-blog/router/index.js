@@ -6,9 +6,8 @@ const routes = [
 	{ path: '/post/:slug+', component: () => import('../components/StaticView.vue') },
 	{
 		path: '/:catchAll(toc-.*)', beforeEnter: (to, from) => {
-			let anchorElement = document.getElementById(to.params.catchAll);
-			if (anchorElement) anchorElement.scrollIntoView();
-			return false
+			from.hash = to.params.catchAll;
+			return router.replace(from)
 		},
 	},
 	{ path: '/:catchAll(.*)', redirect: '/list/1' }
