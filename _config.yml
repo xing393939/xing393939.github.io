@@ -4,7 +4,6 @@ paginate_path: "static/:num"
 highlighter: rouge
 
 kramdown:
-  input: GFM
   auto_ids: true
   auto_id_prefix: 'toc-'
 
