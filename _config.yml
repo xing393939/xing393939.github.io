@@ -4,10 +4,12 @@ paginate_path: "static/:num"
 highlighter: rouge
 
 kramdown:
-  syntax_highlighter: rouge
+  auto_ids: true
+  auto_id_prefix: 'toc-'
 
   # Rouge Highlighter in Kramdown › http://kramdown.gettalong.org/syntax_highlighter/rouge.html
   # span, block element options fall back to global
+  syntax_highlighter: rouge
   syntax_highlighter_opts:
     #line_numbers: true # bad idea, spans don't need linenos and would inherit this option
     span:
