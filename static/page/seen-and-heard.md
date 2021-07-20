@@ -26,6 +26,7 @@ div#content .cnt li {
 - [卢昌海个人主页](https://www.changhai.org/ "物理学博士，网站记录了他从童年开始的人生经历")
 - [最好金龟换酒](http://fz0512.com "从金融行业转做作家，出了三本书，羡慕傅真和毛铭基的爱情")
 - [谢益辉](https://yihui.org "在美国从事IT，和他的共同点是看老剧")
+- [文字园艺](https://yihanxu.github.io/about/ "谢益辉的网友，行为经济学博士")
 - [木遥的窗子](http://blog.farmostwood.net/697.html "在美国谷歌工作多年，可看Diary和Reading")
 - [卢敬锋](http://ljf.com "连续创业者，有不少读书笔记")
 - [唐巧的博客](http://blog.devtang.com "读书笔记偏商业，每年读24本")
