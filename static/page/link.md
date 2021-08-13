@@ -10,8 +10,8 @@ layout: nil
 1. [PHP PSR 标准规范](https://learnku.com/docs/psr)
 1. [Webpack 指南](https://webpack.toobug.net/zh-cn/)
 1. [GitChat](https://gitbook.cn/)
-1. [小专栏](https://xiaozhuanlan.com/explore)
 1. [掘金小册](https://juejin.im/books)
+1. [品牌网](https://www.chinapp.com/brand/1149)
 
 ### 工具
 
