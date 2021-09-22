@@ -5,7 +5,7 @@ category: 读书
 ---
 
 #### 引子
-昨天听了《经典也青春》的[一期节目](https://podcast.readmoo.com/ohclassics/detail/20210422)，介绍了《动物庄园》这本书，于是今天花了2个小时读了。随便也看了作者乔治·奥威尔的百科和译学馆的视频：[LITERATURE - George Orwell](https://www.youtube.com/watch?v=kvXU3vzHq8E)，记录一下读记。
+昨天听了《经典也青春》的[一期节目](https://podcast.readmoo.com/ohclassics/detail/20210422)，介绍了《动物庄园》这本书，于是今天花了2个小时读了。顺便也看了作者乔治·奥威尔的百科和译学馆的视频：[LITERATURE - George Orwell](https://www.youtube.com/watch?v=kvXU3vzHq8E)，记录一下读记。
   
 #### 读记
 乔治·奥威尔是英国作家（1903－1950），参加过西班牙内战和二战。从百科介绍可以猜测他是一个有政治主张的作家。他讨人喜的一点是他反对用华丽的辞藻来堆砌文章，而是主张用普通人也能懂的话语去写，查尔斯·狄更斯也是类似的作家。他的《动物庄园》和《1984》所表达的思想，我觉得可以用这个[视频](https://www.youtube.com/watch?v=kvXU3vzHq8E)的一句话来概括：政府对一个国家的暴政不是公然的折磨人民或是愚蠢的限制言论自由，而是通过多样的娱乐活动和无脑的新闻报告来哄骗公民，全打着为了自由的口号粉饰太平。
