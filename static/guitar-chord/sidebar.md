@@ -1,5 +1,3 @@
-[ditto:searchbar]
-
 ## 吉他谱
 
 1. [童年](#docs/1)
