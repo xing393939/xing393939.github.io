@@ -9,7 +9,7 @@ layout: nil
 1. [Ruby-China](https://ruby-china.org/topics/)
 1. [PHP PSR 标准规范](https://learnku.com/docs/psr)
 1. [Webpack 指南](https://webpack.toobug.net/zh-cn/)
-1. [GitChat](https://gitbook.cn/)
+1. [News on world map](https://liveuamap.com/)
 1. [掘金小册](https://juejin.im/books)
 1. [品牌网](https://www.chinapp.com/brand/1149)
 
