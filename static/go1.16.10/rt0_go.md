@@ -37,7 +37,7 @@ TEXT runtime·rt0_go<ABIInternal>(SB),NOSPLIT,$0
 ok:
 	get_tls(BX)
 	LEAQ	runtime·g0(SB), CX
-	MOVQ	CX, g(BX)           // 设置m0.tls[0] = &g0
+	MOVQ	CX, g(BX)		    // 设置m0.tls[0] = &g0
 	LEAQ	runtime·m0(SB), AX
 
 	// save m->g0 = g0
