@@ -23,7 +23,7 @@ TEXT runtime·rt0_go<ABIInternal>(SB),NOSPLIT,$0
 	// 省略检查CPU的相关代码
 	...
 
-    // 初始化m0和m0.tls
+	// 初始化m0和m0.tls
 	LEAQ	runtime·m0+m_tls(SB), DI
 	CALL	runtime·settls(SB)
 

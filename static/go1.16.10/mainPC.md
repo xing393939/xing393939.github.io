@@ -16,31 +16,19 @@ func main() {
 	} else {
 		maxstacksize = 250000000
 	}
-
-	// An upper limit for max stack size. Used to avoid random crashes
-	// after calling SetMaxStack and trying to allocate a stack that is too big,
-	// since stackalloc works with 32-bit sizes.
 	maxstackceiling = 2 * maxstacksize
 
 	// Allow newproc to start new Ms.
 	mainStarted = true
 
-	if GOARCH != "wasm" { // no threads on wasm yet, so no sysmon
-		// For runtime_syscall_doAllThreadsSyscall, we
-		// register sysmon is not ready for the world to be
-		// stopped.
+	if GOARCH != "wasm" {
 		atomic.Store(&sched.sysmonStarting, 1)
 		systemstack(func() {
+            // 启动系统监控线程，不需要绑定p
 			newm(sysmon, nil, -1)
 		})
 	}
 
-	// Lock the main goroutine onto this, the main OS thread,
-	// during initialization. Most programs won't care, but a few
-	// do require certain calls to be made by the main thread.
-	// Those can arrange for main.main to run in the main thread
-	// by calling runtime.LockOSThread during initialization
-	// to preserve the lock.
 	lockOSThread()
 
 	if g.m != &m0 {
@@ -48,8 +36,6 @@ func main() {
 	}
 	m0.doesPark = true
 
-	// Record when the world started.
-	// Must be before doInit for tracing init.
 	runtimeInitTime = nanotime()
 	if runtimeInitTime == 0 {
 		throw("nanotime returning zero")
@@ -60,9 +46,9 @@ func main() {
 		inittrace.active = true
 	}
 
-	doInit(&runtime_inittask) // Must be before defer.
+    // 执行运行时的init方法
+	doInit(&runtime_inittask)
 
-	// Defer unlock so that runtime.Goexit during init does the unlock too.
 	needUnlock := true
 	defer func() {
 		if needUnlock {
@@ -94,10 +80,8 @@ func main() {
 		cgocall(_cgo_notify_runtime_init_done, nil)
 	}
 
+    // 执行用户程序包的init方法
 	doInit(&main_inittask)
-
-	// Disable init tracing after main init done to avoid overhead
-	// of collecting statistics in malloc and newproc
 	inittrace.active = false
 
 	close(main_init_done)
@@ -105,21 +89,18 @@ func main() {
 	needUnlock = false
 	unlockOSThread()
 
+    // 如果编译参数-buildmode=c-archive或者c-shared，就不往下走了
 	if isarchive || islibrary {
-		// A program compiled with -buildmode=c-archive or c-shared
-		// has a main, but it is not executed.
 		return
 	}
-	fn := main_main // make an indirect call, as the linker doesn't know the address of the main package when laying down the runtime
+
+    // 执行main包的main方法
+	fn := main_main
 	fn()
 	if raceenabled {
 		racefini()
 	}
 
-	// Make racy client program work: if panicking on
-	// another goroutine at the same time as main returns,
-	// let the other goroutine finish printing the panic trace.
-	// Once it does, it will exit. See issues 3934 and 20018.
 	if atomic.Load(&runningPanicDefers) != 0 {
 		// Running deferred functions should not take long.
 		for c := 0; c < 1000; c++ {
@@ -133,6 +114,7 @@ func main() {
 		gopark(nil, nil, waitReasonPanicWait, traceEvGoStop, 1)
 	}
 
+    // main协程执行系统调用的exit，会导致整个进程都退出
 	exit(0)
 	for {
 		var x *int32
