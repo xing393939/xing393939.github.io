@@ -48,15 +48,15 @@ layout: nil
 1. [Python之禅](https://foofish.net/)，公众号Python之禅作者
 1. [Mengkang's land](https://mengkang.net)，PHP、JAVA，就职阿里云，《深入 PHP 内核》作者之一
 1. [八面碰壁居士](https://www.cnblogs.com/painsOnline/)，前端、PHP
-1. [Cizixs 的博客](http://cizixs.com)，专注于云计算、容器、网络和分布式技术，发表系列文章《Flask 源码解析》
-1. [刘未鹏 Mind Hacks](http://mindhacks.cn/2011/11/04/how-to-interview-a-person-for-two-years/)，著有《Mind Hacks》讲思维工具的，专注心智探寻、人工智能、算法
+1. [Cizixs 的博客](http://cizixs.com)，专注于云计算、容器技术，有系列文章《Flask 源码解析》
+1. [刘未鹏 Mind Hacks](http://mindhacks.cn/2011/11/04/how-to-interview-a-person-for-two-years/)，专注心智探寻、人工智能、算法
 1. [学而时嘻之](https://www.geekonomics10000.com/)，用理工的思维理解世界
 1. [透明思考](http://gigix.thoughtworkers.org/)，就职ThoughtWorks，喜欢看书和思考，很正直
-1. [云风的 BLOG](https://blog.codingnow.com/)，中国游戏编程先行者，前网易游戏部门资深程序员，简悦创始人，从业30年
+1. [云风的 BLOG](https://blog.codingnow.com/)，中国游戏编程先行者、简悦创始人，从业30年
 1. [DBA Notes - 闲思录](https://dbanotes.net/)，丁香园CTO，无码科技创始人，产品有抽奖助手
 1. [Draveness's Blog](https://draveness.me/mysql-innodb)，Kubernetes、Go、区块链
 1. [JSS](http://www.mumushen.com)，译有《领域驱动设计之PHP实现》
-1. [四火的唠叨](https://www.raychase.net/4822)，先后就职于华为、Amazon、Oracle，从事云服务的分布式工作流引擎的开发
+1. [四火的唠叨](https://www.raychase.net/4822)，就职过华为、Amazon、Oracle，从事云服务的分布式工作流引擎的开发
 1. [黄健宏](https://blog.huangz.me/)，熟悉redis和go，出了好几本redis的书
 1. [李乾坤的博客](https://qiankunli.github.io/2018/03/31/2018_review.html)，就职喜马拉雅，关注后端、带团队、自身成长，读技术书较多
 1. [Overtrue](https://overtrue.me)，PHP、Laravel
