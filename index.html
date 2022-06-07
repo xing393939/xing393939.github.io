@@ -13,8 +13,9 @@
   <script src="static/js/build.js"></script>
   <script type="text/javascript">
     function disqus(url, title) {
+      document.getElementById('disqus_button').remove();
       window.disqus_config = function () {
-        this.page.url = 'https://xing393939.github.io/' + url;
+        this.page.url = 'https://xing393939.github.io' + url;
         this.page.identifier = url;
         this.page.title = title;
       };
