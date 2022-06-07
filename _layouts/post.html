@@ -3,3 +3,21 @@
 <div class='toc-container'>
   {% include toc.html html=content %}
 </div>
+<button id="load-disqus" onclick="disqus();">
+  加载Disqus
+</button>
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+  function disqus() {
+    if (typeof DISQUS !== 'object') {
+      (function () {
+        var s = document.createElement('script');
+        s.async = true;
+        s.type = 'text/javascript';
+        s.src = '//xing393939.disqus.com/embed.js';
+        (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+      }());
+      $('#load-disqus').remove();
+    }
+  }
+</script>
