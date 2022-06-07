@@ -15,7 +15,7 @@
     function disqus(url, title) {
       window.disqus_config = function () {
         this.page.url = url;
-        this.page.identifier = url;
+        this.page.identifier = url.replace(/[^\w_]/g, '');
         this.page.title = title;
       };
 
