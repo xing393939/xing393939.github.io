@@ -19,13 +19,23 @@
         this.page.title = title;
       };
 
+      if (DISQUS) {
+        DISQUS.reset({
+          reload: true,
+          config: disqus_config
+        })
+        return
+      }
+
       (function () {
         var d = document, s = d.createElement('script');
         s.src = '//xing393939.disqus.com/embed.js';
+        s.type = 'text/javascript';
         s.setAttribute('data-timestamp', +new Date());
         (d.head || d.body).appendChild(s);
       })();
     }
   </script>
 </body>
+
 </html>
