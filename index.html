@@ -13,16 +13,14 @@
   <script src="static/js/build.js"></script>
   <script type="text/javascript">
     function disqus(url, title) {
-      window.disqus_config = function () {
-        this.page.url = url;
-        this.page.identifier = url.replace(/[^\w_]/g, '');
-        this.page.title = title;
-      };
-
       if (typeof DISQUS == 'object') {
         DISQUS.reset({
           reload: true,
-          config: disqus_config
+          config: function () {
+            this.page.url = url;
+            this.page.identifier = url.replace(/[^\w_]/g, '');
+            this.page.title = title;
+          }
         })
         return
       }
