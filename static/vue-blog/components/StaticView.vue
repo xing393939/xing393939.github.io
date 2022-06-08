@@ -1,39 +1,57 @@
 <template>
-  <div class="cnt" v-html="item"></div>
+    <div class="cnt" v-html="item"></div>
+    <giscus-widget
+            repo="xing393939/xing393939.github.io"
+            repoid="MDEwOlJlcG9zaXRvcnkyOTA5NDAzMTI="
+            category="Announcements"
+            categoryid="DIC_kwDOEVdlmM4CPiJB"
+            mapping="specific"
+            :term="itemUrl"
+            reactionsenabled="1"
+            emitmetadata="0"
+            inputposition="top"
+            theme="light"
+            lang="en"
+            loading="lazy"
+    ></giscus-widget>
 </template>
 
 <script>
-import axios from "axios";
-export default {
-  name: "StaticView",
-  data() {
-    return {
-      item: "",
-      pollOptions: null,
+    import axios from "axios";
+    import 'giscus';
+
+    export default {
+        name: "StaticView",
+        data() {
+            return {
+                item: "",
+                itemUrl: "",
+                pollOptions: null,
+            };
+        },
+        created() {
+            this.itemUrl = this.$router.currentRoute.value.fullPath;
+            this.fetchData();
+        },
+        watch: {
+            $route: "fetchData",
+        },
+        methods: {
+            fetchData() {
+                let self = this;
+                if (self.$route.params.page) {
+                    return;
+                }
+                self.item = "<p>loading...</p>";
+                axios
+                    .get(self.$router.currentRoute.value.fullPath + ".html")
+                    .then((response) => {
+                        self.item = response.data;
+                    })
+                    .catch(function (response) {
+                        console.log(response);
+                    });
+            },
+        },
     };
-  },
-  created() {
-    this.fetchData();
-  },
-  watch: {
-    $route: "fetchData",
-  },
-  methods: {
-    fetchData() {
-      let self = this;
-      if (self.$route.params.page) {
-        return;
-      }
-      self.item = "<p>loading...</p>";
-      axios
-        .get(self.$router.currentRoute.value.fullPath + ".html")
-        .then((response) => {
-          self.item = response.data;
-        })
-        .catch(function (response) {
-          console.log(response);
-        });
-    },
-  },
-};
 </script>

@@ -12,6 +12,7 @@
   "license": "ISC",
   "dependencies": {
     "axios": "^0.21.1",
+    "giscus": "^1.0.5",
     "vue": "^3.0.5",
     "vue-router": "^4.0.9"
   },
@@ -28,6 +29,6 @@
     "webpack": "^5.17.0",
     "webpack-cli": "^4.4.0",
     "webpack-dev-server": "^4.4.0",
-    "webpack-obfuscator": "^3.5.0"
+    "webpack-obfuscator": "^3.5.1"
   }
 }
