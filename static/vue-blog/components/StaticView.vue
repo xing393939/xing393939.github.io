@@ -1,13 +1,14 @@
 <template>
     <div class="cnt" v-html="item"></div>
     <giscus-widget
+            v-show="itemUrl.includes('/static/')"
             repo="xing393939/xing393939.github.io"
             repoid="MDEwOlJlcG9zaXRvcnkyOTA5NDAzMTI="
             category="Announcements"
             categoryid="DIC_kwDOEVdlmM4CPiJB"
             mapping="specific"
             :term="itemUrl"
-            reactionsenabled="1"
+            reactionsenabled="0"
             emitmetadata="0"
             inputposition="top"
             theme="light"

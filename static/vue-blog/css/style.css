@@ -293,11 +293,6 @@ h2, h3, h4, h5, h6 {
 	line-height:100%;
 }
 
-#disqus_thread h3 {
-	margin:20px 0;
-	font-size:22px;
-}
-
 h1 {
 	font-size: 1.5em;
 	font-weight: bold !important;
@@ -425,12 +420,6 @@ blockquote {
 	padding: 10px 0;
 }
 
-div#disqus_thread {
-	margin:50px 0 0;
-}
-div.dsq-options, div.dsq-sharing-options, div.dsq-dc-logo, div#dsq-global-toolbar, div#dsq-pagination {
-	display:none !important;
-}
 p.article_date {
 	float:left;
 	margin:0;
@@ -521,14 +510,6 @@ span.balloon {
 
 #feed .info {
 	padding:0 4px 0 0;
-}
-
-div#disqus_thread li{
-	list-style:none;
-}
-
-div#disqus_thread li ul li {
-	list-style:none;
 }
 
 #content p.via {
