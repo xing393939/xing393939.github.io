@@ -144,7 +144,9 @@ div.wrapper {
 #content a {
 	font-weight:bold;
 }
-
+#content .cnt {
+	margin-bottom:10px;
+}
 #content .posts li a {
 	font-weight:normal;
 	text-overflow: ellipsis;

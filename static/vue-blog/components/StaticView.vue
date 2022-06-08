@@ -1,7 +1,7 @@
 <template>
     <div class="cnt" v-html="item"></div>
     <giscus-widget
-            v-show="!itemUrl.includes('/static/')"
+            v-if="!itemUrl.includes('/static/')"
             repo="xing393939/xing393939.github.io"
             repoid="MDEwOlJlcG9zaXRvcnkyOTA5NDAzMTI="
             category="Announcements"
