@@ -7,36 +7,8 @@
   <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui">
   <link rel="icon" href="static/image/logo.png" type="image/x-icon">
 </head>
-
 <body>
   <div id="app"></div>
   <script src="static/js/build.js"></script>
-  <script type="text/javascript">
-    function disqus(url, title) {
-      document.getElementById('disqus_button').remove();
-      window.disqus_config = function () {
-        this.page.url = 'https://xing393939.github.io' + url;
-        this.page.identifier = url;
-        this.page.title = title;
-      };
-
-      if (typeof DISQUS == 'object') {
-        DISQUS.reset({
-          reload: true,
-          config: disqus_config
-        })
-        return
-      }
-
-      (function () {
-        var s = document.createElement('script');
-        s.async = true;
-        s.type = 'text/javascript';
-        s.src = '//xing393939.disqus.com/embed.js';
-        (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
-      }());
-    }
-  </script>
 </body>
-
 </html>

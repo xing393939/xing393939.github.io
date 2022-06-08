@@ -1,10 +1,19 @@
 <h2>{{ page.title }}</h2>
 {{ content }}
 <div class='toc-container'>
-  {% include toc.html html=content %}
+    {% include toc.html html=content %}
 </div>
-<div id="disqus_thread">
-  <div id="disqus_button" style="text-align: center;">
-    <button onclick="disqus('{{ page.id }}', '{{ page.title }}')">加载评论</button>
-  </div>
-</div>
+
+<script src="https://giscus.app/client.js"
+        data-repo="xing393939/xing393939.github.io"
+        data-repo-id="MDEwOlJlcG9zaXRvcnkyOTA5NDAzMTI="
+        data-mapping="number"
+        data-term="{{ page.id }}"
+        data-reactions-enabled="0"
+        data-emit-metadata="0"
+        data-input-position="bottom"
+        data-theme="light"
+        data-lang="zh-CN"
+        crossorigin="anonymous"
+        async>
+</script>
