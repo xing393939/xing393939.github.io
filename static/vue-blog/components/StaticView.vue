@@ -31,7 +31,6 @@
             };
         },
         created() {
-            this.itemUrl = this.$router.currentRoute.value.fullPath;
             this.fetchData();
         },
         watch: {
@@ -39,6 +38,7 @@
         },
         methods: {
             fetchData() {
+                this.itemUrl = this.$router.currentRoute.value.fullPath;
                 let self = this;
                 if (self.$route.params.page) {
                     return;
