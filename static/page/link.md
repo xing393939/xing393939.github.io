@@ -9,7 +9,6 @@ layout: nil
 1. [Ruby-China](https://ruby-china.org/topics/)
 1. [PHP PSR 标准规范](https://learnku.com/docs/psr)
 1. [Webpack 指南](https://webpack.toobug.net/zh-cn/)
-1. [News on world map](https://liveuamap.com/)
 1. [掘金小册](https://juejin.im/books)
 1. [品牌网](https://www.chinapp.com/brand/1149)
 
@@ -21,7 +20,7 @@ layout: nil
 1. [在线设计LOGO](https://www.logojoy.com/app.php)
 1. [工商查询](http://www.gsxt.gov.cn/)
 1. [微信公众号格式化工具](http://md.barretlee.com/)
-1. [在线UML图](https://processon.com/)，draw.io
+1. [在线UML图](https://processon.com/)，draw.io，kroki.io
 
 ### 技术博客
 
