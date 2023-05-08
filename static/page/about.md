@@ -6,11 +6,11 @@ layout: nil
 
 #### 整理的资料
 1. [收集的吉他谱](https://xing393939.github.io/static/guitar-chord)
-1. [学习 PHP](https://xing393939.github.io/php-study/)
-1. [学习 Laravel](https://xing393939.github.io/laravel-study/)
+1. [学习 Go](https://xing393939.github.io/go-study/)
 1. [学习 C 语言](https://xing393939.github.io/c-study/)
 1. [学习 CSAPP](https://xing393939.github.io/csapp-study/)
-1. [学习 OSTEP](https://xing393939.github.io/ostep-study/)
+1. [学习 Linux](https://xing393939.github.io/linux-study/)
+1. [学习 网络l](https://xing393939.github.io/network-study/)
 1. [学习容器技术](https://xing393939.github.io/docker-study/)
 1. [学习理财](https://xing393939.github.io/finance-study/)
 1. [世界文学](https://xing393939.github.io/world-literature/)
