@@ -4,7 +4,7 @@ title: 《爱的艺术》
 category: 读书
 ---
 
-去年看了[本书](https://www.amazon.cn/dp/B07GPRGP4N)，也听过经典也青春关于本书的[播客](https://podcast.readmoo.com/ohclassics/detail/20211028)，今天把播客又重新听了一次，记录一下。
+去年看了[本书](https://www.goodreads.com/book/show/139266181)，也听过经典也青春关于本书的[播客](https://podcast.readmoo.com/ohclassics/detail/20211028)，今天把播客又重新听了一次，记录一下。
 
 #### 关于书的记录
 一些伟大的人也有美满的婚姻，如爱因斯坦、居里夫妇、罗伯特.布朗宁和伊丽莎白.白瑞特.布朗宁。
