@@ -11,7 +11,7 @@ layout: nil
 1. [学习 PHP](/php-study/)
 1. [学习 CSAPP](/csapp-study/)
 1. [学习 Linux](/linux-study/)
-1. [学习 网络](/network-study/)
+1. [学习网络](/network-study/)
 1. [学习容器技术](/docker-study/)
 1. [学习理财](/finance-study/)
 1. [世界文学](/world-literature/)
