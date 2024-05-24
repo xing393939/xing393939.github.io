@@ -1,8 +1,10 @@
 /*!
-  * vue-router v4.0.9
-  * (c) 2021 Eduardo San Martin Morote
+  * vue-router v4.3.2
+  * (c) 2024 Eduardo San Martin Morote
   * @license MIT
   */
+
+/*! #__NO_SIDE_EFFECTS__ */
 
 /**
  * @license
@@ -23,7 +25,19 @@
  */
 
 /**
- * @license
- * Copyright 2021 Google LLC
- * SPDX-License-Identifier: BSD-3-Clause
- */
+* @vue/reactivity v3.4.27
+* (c) 2018-present Yuxi (Evan) You and Vue contributors
+* @license MIT
+**/
+
+/**
+* @vue/runtime-dom v3.4.27
+* (c) 2018-present Yuxi (Evan) You and Vue contributors
+* @license MIT
+**/
+
+/**
+* @vue/shared v3.4.27
+* (c) 2018-present Yuxi (Evan) You and Vue contributors
+* @license MIT
+**/
