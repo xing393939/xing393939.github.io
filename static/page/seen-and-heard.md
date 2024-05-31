@@ -41,7 +41,6 @@ div#content .cnt li {
 - [午夜咖啡](http://jolestar.com/pragmatic-thinking-and-learning/ "法律转IT，博文：北京十年")
 - [Meditic](https://meditic.com/game-of-wild-beast "北大毕业，Web开发者，长居加拿大，喜欢冲浪")
 - [吕小荣](http://mednoter.com/credit-card-is-meaningless.html "ruby-China.org站长，基督徒")
-- [zhengziying.com](https://zhengziying.com/ "上海交大毕业，蚂蚁金服技术Leader")
 - [海德沙龙（HeadSalon）](http://headsalon.org/authors "程序员，目前从事商业与时事评论")
 - [扯氮集](http://weiwuhui.com/resume "魏武挥，就职上海交大，投资人，善于商业评论")
 - [三分鐘熱度](https://readermemo.com/ "主題围绕在生活这件事情上，作者是夫妻两人")
