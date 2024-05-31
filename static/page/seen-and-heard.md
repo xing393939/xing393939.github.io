@@ -46,7 +46,6 @@ div#content .cnt li {
 - [三分鐘熱度](https://readermemo.com/ "主題围绕在生活这件事情上，作者是夫妻两人")
 - [小强的时间管理博客](http://www.gtdlife.com/about-2/ "邹鑫，时间管理讲师")
 - [褪墨](https://www.mifengtd.cn/about/ "关注的主题：时间管理、个人提升、生活健康")
-- [不许联想](https://www.wangxiaofeng.me/faq "自己做T恤卖，前《三联生活周刊》记者")
 - [扫地老僧的Blog](https://doyj.com/ "Python老兵，考虑家庭健康因素定居珠海")
 - [小士刀](https://wdxtub.com/life/ "90后开发，读书很多，可以多看看他的读书笔记")
 
