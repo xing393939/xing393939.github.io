@@ -4,25 +4,24 @@ limit: 25
 <?xml version="1.0" encoding="UTF-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
  
-  <title>{{ site.name }}</title>
+  <title>往事随风</title>
   <link href="{{ site.url }}/"/>
   <link type="application/atom+xml" rel="self" href="{{ site.url }}/atom.xml"/>
   <updated>{{ site.time | date_to_xmlschema }}</updated>
   <id>{{ site.url }}/</id>
   <author>
-    <name>{% if page.category %}{{ page.category }}{% else %}Admin{% endif %}</name>
+    <name>xing393939</name>
   </author>
 
   {% for post in site.posts %}
   <entry>
     <id>{{ site.url }}{{ post.id }}</id>
-    <link type="text/html" rel="alternate" href="{{ site.url }}{{ post.url }}"/>
+    <link type="text/html" rel="alternate" href="{{ site.url }}#/{{ post.id }}"/>
     <title>{{ post.title }}</title>
     <published>{{ post.date | date_to_xmlschema }}</published>
     <updated>{{ post.date | date_to_xmlschema }}</updated>
     <author>
-      <name>{{ site.name }}</name>
-      <uri>{{ site.url }}/</uri>
+      <name>{{ post.category }}</name>
     </author>
     <content type="html">{{ post.content | xml_escape }}</content>
   </entry>
