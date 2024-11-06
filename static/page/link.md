@@ -6,9 +6,11 @@ layout: nil
 
 1. [V2EX](http://www.v2ex.com/)
 1. [LearnKu](https://learnku.com/)
+1. [LINUX DO](https://linux.do/top)
+1. [0xffff](https://0xffff.one/)
 1. [品牌网](https://www.chinapp.com/brand/1149)
-1. [SDC设计师网址导航-优设网](http://hao.uisdc.com/)
-1. [产品经理导航-人人都是产品经理](https://www.pmbaobao.com/)
+1. [优设网](http://hao.uisdc.com/)
+1. [人人都是产品经理](https://www.pmbaobao.com/)
 1. [字体工具 - 字客网](https://www.fontke.com/tool/)
 1. [在线设计LOGO](https://looka.com/)
 1. [工商查询](http://www.gsxt.gov.cn/)
